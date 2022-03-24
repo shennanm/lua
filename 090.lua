@@ -1,4 +1,4 @@
-local wy=gg.makeRequest("https://share.weiyun.com/o8bqQBXQ")
+local wy=gg.makeRequest("https://share.weiyun.com/RMQRZ5Jy")
 if wy then
     local str=wy.content
     guofujb=gg.makeRequest(str:match('【脚本】(.-)【脚本】')).content
